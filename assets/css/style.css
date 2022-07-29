@@ -38,6 +38,26 @@ ul.navbar-nav li.nav-item a.nav-link{
     font-size: 1.2rem;
 }
 
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#hero .animated {
+  -webkit-animation: none;
+  animation: none;
+}
+
+#hero .hero-img {
+  text-align: center;
+}
+#hero .hero-img img {
+  width: 50%;
+}
+
+#about img {
+  width: 80%;
+}
+
 /* About section styles */
 
 h1 strong{
