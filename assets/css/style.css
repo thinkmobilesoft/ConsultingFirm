@@ -45,8 +45,8 @@ h1 strong{
 }
 
 #about{
-  /* background-color: #a1b5d8; */
-  background-color: #B0BEC5;
+  background-color: #a1b5d8;
+  /* background-color: #B0BEC5; */
   color:#424242;
   font-family: "Sora";
 }
@@ -386,6 +386,8 @@ section {
     margin-top:10px;
     margin-bottom:10px;
     background-color:#FFF;
+    background-color:#a1b5d8;
+    ;
   }
   
   .card:hover {
@@ -430,4 +432,18 @@ section {
     text-decoration: none;
     color:#FFFFFF;
     font-size: 0.8rem;
+  }
+
+  #team .card {
+    transition: 0.9s;
+  }
+  #team .card:hover {
+    transform: translateY(-10px);
+  }
+
+  #services .card {
+    transition: 0.9s;
+  }
+  #services .card:hover {
+    transform: translateY(-10px);
   }
