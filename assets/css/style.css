@@ -406,7 +406,7 @@ section {
     margin-top:10px;
     margin-bottom:10px;
     background-color:#FFF;
-    background-color:#a1b5d8;
+    background-color:#FFF
     ;
   }
   
@@ -510,3 +510,5 @@ section {
   #services .card:hover {
     transform: translateY(-10px);
   }
+
+  /* #services h1{} */
