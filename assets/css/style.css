@@ -65,8 +65,9 @@ h1 strong{
 }
 
 #about{
-  background-color: #a1b5d8;
+  /* background-color: #a1b5d8; */
   /* background-color: #B0BEC5; */
+  background-color: #F4F7FD;
   color:#424242;
   font-family: "Sora";
 }
@@ -221,14 +222,16 @@ section {
 
 /* Why Choose Us Styles */
   #whyus{
-    background-color: #a1b5d8;
+    /* background-color: #a1b5d8; */
+    background-color: #F4F7FD;
     color:#444444
   }
 
   /* Contact Section Styles */
 
   #contact_secid{
-    background-color:#a1b5d8;
+    /* background-color:#a1b5d8; */
+    background-color:#F4F7FD;
     color:#444444;
     margin: auto;
   }
@@ -406,13 +409,11 @@ section {
     margin-top:10px;
     margin-bottom:10px;
     background-color:#FFF;
-    background-color:#FFF
-    ;
   }
   
   .card:hover {
     box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background-color:#FFFF00;
+    background-color:#FCBA04;
   }
 
   .card-body a{
