@@ -51,7 +51,7 @@ ul.navbar-nav li.nav-item a.nav-link{
   text-align: center;
 }
 #hero .hero-img img {
-  width: 50%;
+  width: 80%;
 }
 
 #about img {
@@ -503,6 +503,25 @@ section {
   }
   #team .card:hover {
     transform: translateY(-10px);
+  }
+
+  .team-item .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+  }
+
+  .team-item .btn:hover {
+    color: #FFFFFF;
+    background: #002147;
+  }
+
+  .team-item{
+    font-family: Sora;
+    background-color: #f2f2f2;
+  }
+
+  .text-team-item{
+    font-family: Mulish;
   }
 
   #services .card {
