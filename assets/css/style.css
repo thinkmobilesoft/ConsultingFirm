@@ -213,6 +213,15 @@ h1 strong{
 
 /* services section styles */
 
+#services_page{
+  /* background-color: #fffcf7; */
+  background-color: #f5f3f5;
+  font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  /* color:#444444; */
+  color: #070e5f;
+}
+
 #services{
     /* background-color: #fffcf7; */
     background-color: #081391;
@@ -229,6 +238,8 @@ h1 strong{
   #services h1 span{
     color: #f5f3f5;
   }
+
+ 
 
 section {
     padding: 50px 0;
