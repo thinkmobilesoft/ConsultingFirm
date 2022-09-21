@@ -5,8 +5,9 @@
 #3185fc
 #de3c4b
 #ffbd00
-#f5f3f5
+#F8F6F1
 #070e5f
+#F8F6F1
 */
 
 
@@ -20,11 +21,15 @@ body{
     font-weight: 200;
 }
 
+.navbar{
+  background-color: #081391;
+}
+
 .navbar-brand span{
     color: #FFFFFF;
     /* font-family:Arial, Helvetica, sans-serif; */
     font-family:"Cabin Sketch",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#FFFF00;
+    color:#ffbd00;
     font-size: 2.5rem;
     /* font-size:xx-large; */
     /* font-weight: bold; */
@@ -43,13 +48,16 @@ ul.navbar-nav li.nav-item a.nav-link{
 }
 #hero_text h2{
     font-weight: bold;
-    font-size: 2.8rem;;
+    font-size: 2.8rem;
 
+}
+#hero_text h2 span{
+  color:ffbd00;
 }
 
 #hero_text p{
     /* color:#fdc134; */
-    color:#FFFF00;
+    color:#F8F6F1;
 
     
     font-size: 1.2rem;
@@ -78,13 +86,14 @@ ul.navbar-nav li.nav-item a.nav-link{
 /* About section styles */
 
 h1 strong{
-  color: #982649;
+  color: #de3c4b;
 }
 
 #about{
   /* background-color: #a1b5d8; */
   /* background-color: #B0BEC5; */
-  background-color: #f5f3f5;
+  /* background-color: #F8F6F1; */
+  background-color: #F8F6F1;
   color:#424242;
   font-family: "Albert Sans";
   font-size: 1.1rem;
@@ -96,7 +105,7 @@ h1 strong{
   /* background-color: #F4F7FD; */
   background-color: #081391;
   
-  color:#f5f3f5
+  color:#F8F6F1
 }
 
 #team a:link{
@@ -106,56 +115,56 @@ h1 strong{
 #about_a{
     /* background-color: #fdc134;
     border-color: #fdc134; */
-    background-color: #FFFF00;
-    border-color: #FFFF00;
+    background-color: #ffbd00;
+    border-color: #ffbd00;
     text-decoration: none;
-    color:#424242;
+    color:#070e5f;
     font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     border-radius: 50px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 #about_a:hover{
-    background-color: #002147;
-    border-color: #4cc9f0;
+    background-color: #3185fc;
+    border-color: #3185fc;
     text-decoration: none;
     color: #fff;
     
 }
 
 #services_a{
-    background-color: #D50000;
-    border-color: #D50000;
+    background-color: #de3c4b;
+    border-color: #de3c4b;
     /* 9e0031 */
     text-decoration: none;
     font-family: "Albert Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     border-radius: 50px;
     font-size: 0.9rem;
 }
 
 #services_a:hover{
-    background-color: #002147;
-    border-color: #4cc9f0;
+    background-color: #3185fc;
+    border-color: #3185fc;
     text-decoration: none;
     color: #fff;
     
 }
 
 #whoweare_a{
-  background-color: #D50000;
-  border-color: #D50000;
+  background-color: #de3c4b;
+  border-color: #de3c4b;
   /* 9e0031 */
   text-decoration: none;
   font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 200;
+  font-weight: 500;
   border-radius: 50px;
   font-size: 0.9rem;
 }
 
 #whoweare_a:hover{
-  background-color: #002147;
+  background-color: #3185fc;
   border-color: #4cc9f0;
   text-decoration: none;
   color: #fff;
@@ -163,18 +172,18 @@ h1 strong{
 }
 
 #whyus_a{
-  background-color: #D50000;
-  border-color: #D50000;
+  background-color: #de3c4b;
+  border-color: #de3c4b;
   /* 9e0031 */
   text-decoration: none;
   font-family: "Albert Sans";
-  font-weight: 200;
+  font-weight: 500;
   border-radius: 50px;
   font-size: 0.9rem;
 }
 
 #whyus_a:hover{
-  background-color: #002147;
+  background-color: #3185fc;
   border-color: #4cc9f0;
   text-decoration: none;
   color: #fff;
@@ -182,8 +191,8 @@ h1 strong{
 }
 
 #send_message{
-  background-color: #D50000;
-  border-color: #D50000;
+  background-color: #de3c4b;
+  border-color: #de3c4b;
   /* 9e0031 */
   text-decoration: none;
   font-family: "Albert Sans";
@@ -193,7 +202,7 @@ h1 strong{
 }
 
 #send_mesage:hover{
-  background-color: #002147;
+  background-color: #3185fc;
   border-color: #4cc9f0;
   text-decoration: none;
   color: #fff;
@@ -215,7 +224,7 @@ h1 strong{
 
 #services_page{
   /* background-color: #fffcf7; */
-  background-color: #f5f3f5;
+  background-color: #F8F6F1;
   font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
   /* color:#444444; */
@@ -228,7 +237,7 @@ h1 strong{
     font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
     /* color:#444444; */
-    color: #f5f3f5;
+    color: #F8F6F1;
 }
 
   #services h1 strong{
@@ -236,7 +245,7 @@ h1 strong{
   }
 
   #services h1 span{
-    color: #f5f3f5;
+    color: #F8F6F1;
   }
 
  
@@ -257,7 +266,7 @@ section {
   }
 
   h6 strong{
-    color:#982649;
+    color:#de3c4b;
   }
 
 .section-title {
@@ -270,7 +279,7 @@ section {
   #whyus{
     /* background-color: #a1b5d8; */
     /* background-color: #F4F7FD; */
-    background-color: #f5f3f5;
+    background-color: #F8F6F1;
     /* color:#444444; */
     color:#070e5f;
   }
@@ -279,7 +288,7 @@ section {
 
   #contact_secid{
     /* background-color:#a1b5d8; */
-    background-color:#F4F7FD;
+    background-color:#F8F6F1;
     color:#444444;
     margin: auto;
   }
@@ -457,7 +466,7 @@ section {
     /* margin-top:10px;
     margin-bottom:10px; */
     /* background-color:#FFF; */
-    background-color: #f5f3f5;
+    background-color: #F8F6F1;
     height: 6rem;
   }
   
@@ -486,38 +495,45 @@ section {
     /* margin-top:10px;
     margin-bottom:10px; */
     /* background-color:#FFF; */
-    background-color: #f5f3f5;
     height: 10rem;
+  }
+
+  #team .card-body a{
+    color:#070e5f;
+  }
+
+  #team .card-body a{
+    color:#070e5f;
   }
 
 
   /* .learnmore h5{
-    color:#982649;
+    color:#de3c4b;
     
   }
 
   .learnmore h5{
-    color:#982649;
+    color:#de3c4b;
     
   } */
 
   #learnmore_a{
     /* background-color: #fdc134;
     border-color: #fdc134; */
-    background-color: #D50000;
-    border-color: #D50000;
+    background-color: #de3c4b;
+    border-color: #de3c4b;
     text-decoration: none;
     color:#FFFFFF;
-    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Albert Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 50px;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
   #learnmore_a:hover{
-    background-color: #a1b5d8;
-    border-color: #a1b5d8;
+    background-color: #3185fc;
+    border-color: #3185fc;
     text-decoration: none;
-    color: #444444;
+    color: #F8F6F1;
     
 }
 
@@ -546,7 +562,7 @@ section {
   }
 
   footer h3{
-    color:#FFFF00;
+    color:#ffbd00;
   }
 
   footer li a{
@@ -563,9 +579,13 @@ section {
 
   #team .card {
     transition: 0.9s;
+    background-color: #ffbd00;
+    color: #070e5f;
   }
   #team .card:hover {
     transform: translateY(-10px);
+    background-color: #3185fc;
+    color: #070e5f;
   }
 
   .team-item .btn {
@@ -575,12 +595,27 @@ section {
 
   .team-item .btn:hover {
     color: #FFFFFF;
-    background: #002147;
+    background: #3185fc;
   }
 
   .team-item{
     font-family: "Albert Sans";
-    background-color: #f2f2f2;
+    background-color: #F8F6F1;
+    border-style: solid;
+    border-color: #ffbd00;
+    border-width: 0.05rem;
+    position: relative;
+  }
+
+  .team-item a{
+    font-family: "Albert Sans";
+    text-decoration: none;
+    color:#070e5f
+  }
+
+  .team-item span{
+    color:#de3c4b;
+    font-weight: 500;
   }
 
   .text-team-item{
@@ -593,7 +628,20 @@ section {
   }
 
   #team h1 span{
-    color: #f5f3f5;
+    color: #F8F6F1;
+  }
+
+  #team h1 span{
+    color: #F8F6F1;
+  }
+
+  #teams_page{
+    /* background-color: #fffcf7; */
+    background-color: #F8F6F1;
+    font-family: "Albert Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    /* color:#444444; */
+    color: #070e5f;
   }
 
   #services .card {
