@@ -259,7 +259,7 @@ section {
   }
 
   
-#team, #footer {
+#team, #footer, #teams_page,#services_page, #contact_secid {
   height: auto;
 }
 
